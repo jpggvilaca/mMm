@@ -1,0 +1,17 @@
+{
+  "name": "mmm-server",
+  "version": "1.0.0",
+  "node": "6.2.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "watch": "nodemon server.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "compression": "^1.6.0",
+    "express": "~4.14.0",
+    "mongoose": "~4.5.9",
+    "body-parser": "~1.15.2"
+  }
+}
