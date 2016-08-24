@@ -1,7 +1,8 @@
 var express = require('express');
-// Get the router
 var router = express.Router();
 var User = require('./models/user');
+var Account = require('./models/account');
+var Transaction = require('./models/transaction');
 
 // Middleware for all this routers requests
 router.use(function timeLog(req, res, next) {
